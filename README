@@ -1,0 +1,14 @@
+# Govtech Robot Engineer Internship Technical Assignment
+
+# Description
+This is a simple implementation of grid-search algorithm applied on ROS turtle simulator
+
+# Setup
+
+1. Ensure you can run the turtle simulator on your local machine. Refer to the link for installation: http://wiki.ros.org/turtlesim
+2. Git clone this repository
+3. Cd into repository 
+4. Execute this command in one terminal/terminal tab
+	 >ros2 run turtlesim turtlesim_node
+5. Execute this command in another terminal
+	> . run.sh

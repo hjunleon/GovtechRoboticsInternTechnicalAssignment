@@ -1,0 +1,5 @@
+  File "/home/facestomperx/colcon_ws/src/turtle_sim_searcher/install/turtle_sim_searcher/lib/python3.8/site-packages/turtle_sim_searcher/grid_searcher.py", line 283
+    elif :
+         ^
+SyntaxError: invalid syntax
+

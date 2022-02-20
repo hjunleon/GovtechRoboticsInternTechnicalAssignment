@@ -1,0 +1,22 @@
+running egg_info
+writing build/turtle_sim_searcher/turtle_sim_searcher.egg-info/PKG-INFO
+writing dependency_links to build/turtle_sim_searcher/turtle_sim_searcher.egg-info/dependency_links.txt
+writing entry points to build/turtle_sim_searcher/turtle_sim_searcher.egg-info/entry_points.txt
+writing requirements to build/turtle_sim_searcher/turtle_sim_searcher.egg-info/requires.txt
+writing top-level names to build/turtle_sim_searcher/turtle_sim_searcher.egg-info/top_level.txt
+reading manifest file 'build/turtle_sim_searcher/turtle_sim_searcher.egg-info/SOURCES.txt'
+writing manifest file 'build/turtle_sim_searcher/turtle_sim_searcher.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtle_sim_searcher/grid_searcher.py -> /home/facestomperx/colcon_ws/src/turtle_sim_searcher/build/turtle_sim_searcher/build/lib/turtle_sim_searcher
+running install
+running install_lib
+copying /home/facestomperx/colcon_ws/src/turtle_sim_searcher/build/turtle_sim_searcher/build/lib/turtle_sim_searcher/grid_searcher.py -> /home/facestomperx/colcon_ws/src/turtle_sim_searcher/install/turtle_sim_searcher/lib/python3.8/site-packages/turtle_sim_searcher
+byte-compiling /home/facestomperx/colcon_ws/src/turtle_sim_searcher/install/turtle_sim_searcher/lib/python3.8/site-packages/turtle_sim_searcher/grid_searcher.py to grid_searcher.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/facestomperx/colcon_ws/src/turtle_sim_searcher/install/turtle_sim_searcher/lib/python3.8/site-packages/turtle_sim_searcher-0.0.0-py3.8.egg-info' (and everything under it)
+Copying build/turtle_sim_searcher/turtle_sim_searcher.egg-info to /home/facestomperx/colcon_ws/src/turtle_sim_searcher/install/turtle_sim_searcher/lib/python3.8/site-packages/turtle_sim_searcher-0.0.0-py3.8.egg-info
+running install_scripts
+Installing grid_searcher script to /home/facestomperx/colcon_ws/src/turtle_sim_searcher/install/turtle_sim_searcher/lib/turtle_sim_searcher
+writing list of installed files to '/home/facestomperx/colcon_ws/src/turtle_sim_searcher/build/turtle_sim_searcher/install.log'

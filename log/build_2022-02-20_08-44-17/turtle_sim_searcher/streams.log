@@ -1,0 +1,24 @@
+[0.302s] Invoking command in '/home/facestomperx/colcon_ws/src/turtle_sim_searcher': PYTHONPATH=/home/facestomperx/colcon_ws/src/turtle_sim_searcher/install/turtle_sim_searcher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/turtle_sim_searcher build --build-base /home/facestomperx/colcon_ws/src/turtle_sim_searcher/build/turtle_sim_searcher/build install --prefix /home/facestomperx/colcon_ws/src/turtle_sim_searcher/install/turtle_sim_searcher --record /home/facestomperx/colcon_ws/src/turtle_sim_searcher/build/turtle_sim_searcher/install.log --single-version-externally-managed
+[0.551s] running egg_info
+[0.552s] writing build/turtle_sim_searcher/turtle_sim_searcher.egg-info/PKG-INFO
+[0.552s] writing dependency_links to build/turtle_sim_searcher/turtle_sim_searcher.egg-info/dependency_links.txt
+[0.552s] writing entry points to build/turtle_sim_searcher/turtle_sim_searcher.egg-info/entry_points.txt
+[0.552s] writing requirements to build/turtle_sim_searcher/turtle_sim_searcher.egg-info/requires.txt
+[0.553s] writing top-level names to build/turtle_sim_searcher/turtle_sim_searcher.egg-info/top_level.txt
+[0.596s] reading manifest file 'build/turtle_sim_searcher/turtle_sim_searcher.egg-info/SOURCES.txt'
+[0.597s] writing manifest file 'build/turtle_sim_searcher/turtle_sim_searcher.egg-info/SOURCES.txt'
+[0.598s] running build
+[0.598s] running build_py
+[0.598s] copying turtle_sim_searcher/grid_searcher.py -> /home/facestomperx/colcon_ws/src/turtle_sim_searcher/build/turtle_sim_searcher/build/lib/turtle_sim_searcher
+[0.598s] running install
+[0.599s] running install_lib
+[0.599s] copying /home/facestomperx/colcon_ws/src/turtle_sim_searcher/build/turtle_sim_searcher/build/lib/turtle_sim_searcher/grid_searcher.py -> /home/facestomperx/colcon_ws/src/turtle_sim_searcher/install/turtle_sim_searcher/lib/python3.8/site-packages/turtle_sim_searcher
+[0.600s] byte-compiling /home/facestomperx/colcon_ws/src/turtle_sim_searcher/install/turtle_sim_searcher/lib/python3.8/site-packages/turtle_sim_searcher/grid_searcher.py to grid_searcher.cpython-38.pyc
+[0.604s] running install_data
+[0.604s] running install_egg_info
+[0.606s] removing '/home/facestomperx/colcon_ws/src/turtle_sim_searcher/install/turtle_sim_searcher/lib/python3.8/site-packages/turtle_sim_searcher-0.0.0-py3.8.egg-info' (and everything under it)
+[0.606s] Copying build/turtle_sim_searcher/turtle_sim_searcher.egg-info to /home/facestomperx/colcon_ws/src/turtle_sim_searcher/install/turtle_sim_searcher/lib/python3.8/site-packages/turtle_sim_searcher-0.0.0-py3.8.egg-info
+[0.608s] running install_scripts
+[0.626s] Installing grid_searcher script to /home/facestomperx/colcon_ws/src/turtle_sim_searcher/install/turtle_sim_searcher/lib/turtle_sim_searcher
+[0.626s] writing list of installed files to '/home/facestomperx/colcon_ws/src/turtle_sim_searcher/build/turtle_sim_searcher/install.log'
+[0.652s] Invoked command in '/home/facestomperx/colcon_ws/src/turtle_sim_searcher' returned '0': PYTHONPATH=/home/facestomperx/colcon_ws/src/turtle_sim_searcher/install/turtle_sim_searcher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/turtle_sim_searcher build --build-base /home/facestomperx/colcon_ws/src/turtle_sim_searcher/build/turtle_sim_searcher/build install --prefix /home/facestomperx/colcon_ws/src/turtle_sim_searcher/install/turtle_sim_searcher --record /home/facestomperx/colcon_ws/src/turtle_sim_searcher/build/turtle_sim_searcher/install.log --single-version-externally-managed

@@ -1,0 +1,1 @@
+ros2 topic list | grep --line-buffered "cmd" | ros2 topic echo /turtle1/pose
