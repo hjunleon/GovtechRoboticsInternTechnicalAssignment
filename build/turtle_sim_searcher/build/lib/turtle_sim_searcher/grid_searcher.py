@@ -207,8 +207,8 @@ class turtle_controller(Node):
         
         # Calculate required rotational velocity
         current_ang = self.get_pose_angle()
-        turn = turtle_sim_searcher.utils.remap_rad(target_ang) - turtle_sim_searcher.utils.remap_rad(current_ang)
-
+        # turn = turtle_sim_searcher.utils.remap_rad(target_ang) - turtle_sim_searcher.utils.remap_rad(current_ang)
+        turn = target_ang - current_ang
         # Normalise to angle that's not a turn larger than 180 degrees
         if turn > M_PI:
             turn -= M_TWICE_PI

@@ -207,36 +207,18 @@ class turtle_controller(Node):
         
         # Calculate required rotational velocity
         current_ang = self.get_pose_angle()
-        turn = turtle_sim_searcher.utils.remap_rad(target_ang) - turtle_sim_searcher.utils.remap_rad(current_ang)
-
+        turn = target_ang - current_ang
         # Normalise to angle that's not a turn larger than 180 degrees
         if turn > M_PI:
             turn -= M_TWICE_PI
         elif turn < -M_PI:
             turn += M_TWICE_PI
 
-        # print(f"turn: {turn}")
-
         # PID formula to compute v_ang
-
         v_ang = 2.75 * Kp * turn
-        # print(f"v_x: {v_x}")
-        # print(f"v_ang: {v_ang}")
         return self.create_twist( v_x ,0.0, v_ang ) 
 
    
-    # def move_forward(self):
-    #     self.reset_error_sum()
-    #     while rclpy.ok():
-    #         rclpy.spin_once(self)
-    #         twist = self.generate_twist(False)
-    #         if not twist: 
-    #             time.sleep(1)
-    #         elif ():
-    #             self.stopbot()
-    #             break
-    #         else:
-    #             self.publish_twist(twist)
 
     """
     @brief Applied to rotations as it's more important for angle accuracy and it's position doesn't change
@@ -289,33 +271,6 @@ class turtle_controller(Node):
             else:
                 self.publish_twist(twist)
 
-    # def rotate(self):
-    #     self.reset_error_sum()
-    #     while rclpy.ok():
-    #         rclpy.spin_once(self)
-    #         twist = self.generate_twist(True)
-    #         if not twist: 
-    #             time.sleep(1)
-    #         elif ():
-    #             self.stopbot()
-    #             break
-    #         else:
-    #             self.publish_twist(twist)
-
-    # def rotate_twist(self):
-    #     current_ang = (self.cur_pose.theta)
-    #     target_ang = self.dest.z
-    #     turn = target_ang - current_ang
-        
-    #     # Determine turning left or right is easier
-    #     if turn > M_PI:
-    #         turn -= M_TWICE_PI
-    #     elif turn < -M_PI:
-    #         turn += M_TWICE_PI
-
-
-    #     ang = 2.75 * Kp * (turn)
-    #     return self.create_twist( 0.0 ,0.0, ang ) 
     """
     @brief A set of complete motions that set turtle in the position and heading angle
     for grid search to proceed.
